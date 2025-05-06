@@ -38,7 +38,7 @@ Built using **ReactJS**, **Spring Boot**, and **MySQL**, the app leverages **JWT
 - **ReactJS**
 - **Axios** (for API calls)
 - **React Router**
-- **HTML5 + CSS3 + JavaScript**
+- **HTML5 + TailwindCSS + JavaScript**
 
 ### Backend
 - **Spring Boot**
