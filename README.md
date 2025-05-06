@@ -1,4 +1,4 @@
-# 🛠️ Online Complaint Management System - Full Stack Web App
+# 🛠️ Online Complaint Management System - Full Stack Web App (JAVA)
 
 ---
 
