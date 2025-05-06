@@ -197,6 +197,3 @@ Frontend should be running on http://localhost:5137.
 
 🤝 Contributing
 We welcome contributions to the project! If you have any ideas for improvements or find a bug, feel free to create an issue or submit a pull request.
-
-📜 License
-This project is licensed under the MIT License - see the LICENSE file for details.
