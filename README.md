@@ -1,8 +1,5 @@
 # 🛠️ Online Complaint Management System - Full Stack Web App
 
-## 🔗 Live Demo  
-**https://your-complaint-management-app-link.com** *(Replace with actual deployment link)*
-
 ---
 
 ## 📌 Overview  
