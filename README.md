@@ -125,11 +125,20 @@ Built using **ReactJS**, **Spring Boot**, and **MySQL**, the app leverages **JWT
    
 2. Update your application.properties with MySQL credentials:
 
-        spring.datasource.url=jdbc:mysql://localhost:3306/complaint_db
-        spring.datasource.username=root
-        spring.datasource.password=your_password
+        spring.application.name=demo
+        spring.datasource.url=jdbc:mysql://localhost:3306/********
+        spring.datasource.username=useranme
+        spring.datasource.password=*******
+
         spring.jpa.hibernate.ddl-auto=update
         spring.jpa.show-sql=true
+        spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
+        spring.jpa.open-in-view=false
+
+        spring.servlet.multipart.max-file-size=5MB
+        spring.servlet.multipart.max-request-size=5MB
+
+        logging.level.org.springframework.security=DEBUG
    
 3.Build the project using Maven:
 
