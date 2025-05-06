@@ -52,59 +52,59 @@ Built using **ReactJS**, **Spring Boot**, and **MySQL**, the app leverages **JWT
 
 ### 📦 Backend (Spring Boot)
 
-```
-/SMART-COMPLAINT-MANAGEMENT-SYSTEM
-│
-├── Backend-Spring-boot/                # Spring Boot Backend
-│   ├── src/
-│   │   └── main/
-│   │       └── java/com/example/demo/
-│   │           ├── configuration/      # Security and CORS configs
-│   │           │   ├── AuthConfig.java
-│   │           │   └── CorsConfig.java
-│   │           ├── controller/         # API Controllers
-│   │           │   ├── AuthController.java
-│   │           │   ├── ComplaintController.java
-│   │           ├── entity/             # JPA Entity Classes
-│   │           │   ├── AuthEntity.java
-│   │           │   ├── AuthResponse.java
-│   │           │   └── EntityComplaint.java
-│   │           ├── filter/             # JWT Filter
-│   │           │   └── JwtRequestFilter.java
-│   │           ├── repository/         # Repository Interfaces
-│   │           │   ├── AuthRepo.java
-│   │           │   └── ComplaintRepository.java
-│   │           ├── service/            # Business Logic
-│   │           │   ├── CustomUserDetailsService.java
-│   │           │   └── ServiceComplaint.java
-│   │           ├── utils/              # Utility classes
-│   │           │   └── (any helpers)
-│   │           └── DemoApplication.java # Main app entry point
-│   └── resources/                      # application.properties, static files
-│
+
+     /SMART-COMPLAINT-MANAGEMENT-SYSTEM
+     │
+     ├── Backend-Spring-boot/                # Spring Boot Backend
+     │   ├── src/
+     │   │   └── main/
+     │   │       └── java/com/example/demo/
+     │   │           ├── configuration/      # Security and CORS configs
+     │   │           │   ├── AuthConfig.java
+     │   │           │   └── CorsConfig.java
+     │   │           ├── controller/         # API Controllers
+     │   │           │   ├── AuthController.java
+     │   │           │   ├── ComplaintController.java
+     │   │           ├── entity/             # JPA Entity Classes
+     │   │           │   ├── AuthEntity.java
+     │   │           │   ├── AuthResponse.java
+     │   │           │   └── EntityComplaint.java
+     │   │           ├── filter/             # JWT Filter
+     │   │           │   └── JwtRequestFilter.java
+     │   │           ├── repository/         # Repository Interfaces
+     │   │           │   ├── AuthRepo.java
+     │   │           │   └── ComplaintRepository.java
+     │   │           ├── service/            # Business Logic
+     │   │           │   ├── CustomUserDetailsService.java
+     │   │           │   └── ServiceComplaint.java
+     │   │           ├── utils/              # Utility classes
+     │   │           │   └── (any helpers)
+     │   │           └── DemoApplication.java # Main app entry point
+     │   └── resources/                      # application.properties, static files
+     │
 
 ### 📦 Frontend (Reactjs)
-├── Frontend-ReactJS/                   # ReactJS Frontend
-│   ├── public/                         # Static public assets
-│   ├── src/
-│   │   ├── assets/                     # Images, logos, icons
-│   │   │   └── react.svg
-│   │   ├── components/                 # UI components
-│   │   │   ├── Footer.jsx
-│   │   │   └── Navbar.jsx
-│   │   ├── pages/                      # Page-level components
-│   │   │   ├── AdminHome.jsx
-│   │   │   ├── ComplainList.jsx
-│   │   │   ├── Login.jsx
-│   │   │   ├── Registration.jsx
-│   │   │   └── UserHome.jsx
-│   │   ├── App.jsx                     # App root
-│   │   ├── index.css                   # Global styles
-│   │   └── main.jsx                    # ReactDOM entry
-│   ├── index.html                      # Template file
-│   ├── package.json                    # Project metadata and dependencies
-│   ├── vite.config.js                  # Vite config
-│   └── README.md                       # Project description
+    ├── Frontend-ReactJS/                   # ReactJS Frontend
+    │   ├── public/                         # Static public assets
+    │   ├── src/
+    │   │   ├── assets/                     # Images, logos, icons
+    │   │   │   └── react.svg
+    │   │   ├── components/                 # UI components
+    │   │   │   ├── Footer.jsx
+    │   │   │   └── Navbar.jsx
+    │   │   ├── pages/                      # Page-level components
+    │   │   │   ├── AdminHome.jsx
+    │   │   │   ├── ComplainList.jsx
+    │   │   │   ├── Login.jsx
+    │   │   │   ├── Registration.jsx
+    │   │   │   └── UserHome.jsx
+    │   │   ├── App.jsx                     # App root
+    │   │   ├── index.css                   # Global styles
+    │   │   └── main.jsx                    # ReactDOM entry
+    │   ├── index.html                      # Template file
+    │   ├── package.json                    # Project metadata and dependencies
+    │   ├── vite.config.js                  # Vite config
+    │   └── README.md                       # Project description
 
 
 ---
