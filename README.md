@@ -163,7 +163,7 @@ Built using **ReactJS**, **Spring Boot**, and **MySQL**, the app leverages **JWT
 
        npm run dev
    
-Frontend should be running on http://localhost:3000.
+Frontend should be running on http://localhost:5137.
 
 
 ## Screenshot
