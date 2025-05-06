@@ -51,6 +51,8 @@ Built using **ReactJS**, **Spring Boot**, and **MySQL**, the app leverages **JWT
 ## 📁 Project Structure
 
 ### 📦 Backend (Spring Boot)
+
+```
 /SMART-COMPLAINT-MANAGEMENT-SYSTEM
 │
 ├── Backend-Spring-boot/                # Spring Boot Backend
